@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-2/build/robot_charging -- -j12 -l12
+[0.084s] [35m[1mConsolidate compiler generated dependencies of target robot[0m
+[0.085s] [35m[1mConsolidate compiler generated dependencies of target charging_station[0m
+[0.121s] [ 25%] [32mBuilding CXX object CMakeFiles/charging_station.dir/src/charging_station.cpp.o[0m
+[0.128s] [ 50%] [32mBuilding CXX object CMakeFiles/robot.dir/src/robot.cpp.o[0m
+[5.463s] [ 75%] [32m[1mLinking CXX executable robot[0m
+[5.690s] [ 75%] Built target robot
+[9.498s] [100%] [32m[1mLinking CXX executable charging_station[0m
+[9.950s] [100%] Built target charging_station
+[9.968s] Invoked command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging' returned '0': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-2/build/robot_charging -- -j12 -l12
+[9.983s] Invoking command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-2/build/robot_charging
+[9.995s] -- Install configuration: ""
+[9.995s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/robot
+[9.997s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/robot" to ""
+[9.997s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/charging_station
+[10.000s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/charging_station" to ""
+[10.000s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/package_run_dependencies/robot_charging
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/parent_prefix_path/robot_charging
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/ament_prefix_path.sh
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/ament_prefix_path.dsv
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/path.sh
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/path.dsv
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.bash
+[10.001s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.sh
+[10.002s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.zsh
+[10.002s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.dsv
+[10.002s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/package.dsv
+[10.003s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/packages/robot_charging
+[10.004s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/cmake/robot_chargingConfig.cmake
+[10.004s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/cmake/robot_chargingConfig-version.cmake
+[10.004s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/package.xml
+[10.005s] Invoked command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging' returned '0': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-2/build/robot_charging

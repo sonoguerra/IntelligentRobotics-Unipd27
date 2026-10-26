@@ -1,0 +1,104 @@
+[0.071s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'exercise-1']
+[0.071s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['exercise-1'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fe40c70de10>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fe40c7ff0a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fe40c7ff0a0>>, mixin_verb=('build',))
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.177s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.177s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/guerra/uni/int-rob/exercise-1'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.177s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.178s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.187s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'exercise-1'
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.187s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.210s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 324 installed packages in /opt/ros/humble
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_target' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_clean_first' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'cmake_force_configure' from command line to 'False'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'ament_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.237s] Level 5:colcon.colcon_core.verb:set package 'exercise-1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.237s] DEBUG:colcon.colcon_core.verb:Building package 'exercise-1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/guerra/uni/int-rob/exercise-1/build/exercise-1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/guerra/uni/int-rob/exercise-1/install/exercise-1', 'merge_install': False, 'path': '/home/guerra/uni/int-rob/exercise-1', 'symlink_install': False, 'test_result_base': None}
+[0.237s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.238s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.238s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/guerra/uni/int-rob/exercise-1' with build type 'ament_cmake'
+[0.238s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/guerra/uni/int-rob/exercise-1'
+[0.241s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.241s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.242s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.251s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[6.061s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[6.078s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[6.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise-1)
+[6.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[6.109s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1' for CMake module files
+[6.110s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1' for CMake config files
+[6.110s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise-1', 'cmake_prefix_path')
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.ps1'
+[6.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.sh'
+[6.114s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/bin'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/pkgconfig/exercise-1.pc'
+[6.115s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/python3.10/site-packages'
+[6.116s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/bin'
+[6.116s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.ps1'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.dsv'
+[6.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.sh'
+[6.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.bash'
+[6.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.zsh'
+[6.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/colcon-core/packages/exercise-1)
+[6.122s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(exercise-1)
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1' for CMake module files
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1' for CMake config files
+[6.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('exercise-1', 'cmake_prefix_path')
+[6.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.ps1'
+[6.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.dsv'
+[6.123s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/hook/cmake_prefix_path.sh'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/bin'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/pkgconfig/exercise-1.pc'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/python3.10/site-packages'
+[6.124s] Level 1:colcon.colcon_core.environment:checking '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/bin'
+[6.124s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.ps1'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.dsv'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.sh'
+[6.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.bash'
+[6.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.zsh'
+[6.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/colcon-core/packages/exercise-1)
+[6.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.131s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.149s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.149s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guerra/uni/int-rob/exercise-1/install/local_setup.ps1'
+[6.150s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guerra/uni/int-rob/exercise-1/install/_local_setup_util_ps1.py'
+[6.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guerra/uni/int-rob/exercise-1/install/setup.ps1'
+[6.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guerra/uni/int-rob/exercise-1/install/local_setup.sh'
+[6.154s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/guerra/uni/int-rob/exercise-1/install/_local_setup_util_sh.py'
+[6.155s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guerra/uni/int-rob/exercise-1/install/setup.sh'
+[6.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guerra/uni/int-rob/exercise-1/install/local_setup.bash'
+[6.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guerra/uni/int-rob/exercise-1/install/setup.bash'
+[6.156s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/guerra/uni/int-rob/exercise-1/install/local_setup.zsh'
+[6.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/guerra/uni/int-rob/exercise-1/install/setup.zsh'

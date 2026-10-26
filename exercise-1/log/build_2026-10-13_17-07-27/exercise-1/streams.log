@@ -1,0 +1,33 @@
+[0.009s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[0.060s] [35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target monitor[0m
+[0.074s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/temperature_monitor.cpp.o[0m
+[0.083s] [ 50%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/temperature_monitor.cpp.o[0m
+[5.405s] [ 75%] [32m[1mLinking CXX executable sensor[0m
+[5.705s] [ 75%] Built target sensor
+[5.921s] [100%] [32m[1mLinking CXX executable monitor[0m
+[6.170s] [100%] Built target monitor
+[6.179s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[6.191s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[6.201s] -- Install configuration: ""
+[6.201s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[6.209s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor" to ""
+[6.209s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor
+[6.212s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor" to ""
+[6.212s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[6.213s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/package_run_dependencies/exercise-1
+[6.213s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/parent_prefix_path/exercise-1
+[6.213s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.sh
+[6.213s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.dsv
+[6.214s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.sh
+[6.214s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.dsv
+[6.215s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.bash
+[6.216s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.sh
+[6.216s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.zsh
+[6.216s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.dsv
+[6.217s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.dsv
+[6.217s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/packages/exercise-1
+[6.217s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config.cmake
+[6.218s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config-version.cmake
+[6.218s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.xml
+[6.219s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1

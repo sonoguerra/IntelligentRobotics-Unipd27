@@ -1,0 +1,104 @@
+[0.008s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/guerra/uni/int-rob/exercise-1 -DCMAKE_INSTALL_PREFIX=/home/guerra/uni/int-rob/exercise-1/install/exercise-1
+[0.018s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.114s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.133s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.134s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.138s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.144s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.153s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.174s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.175s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.278s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.313s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.394s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.394s] -- Configured cppcheck include dirs: 
+[0.394s] -- Configured cppcheck exclude dirs and/or files: 
+[0.395s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.396s] -- Added test 'lint_cmake' to check CMake code style
+[0.397s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.403s] -- Added test 'uncrustify' to check C / C++ code style
+[0.403s] -- Configured uncrustify additional arguments: 
+[0.405s] -- Added test 'xmllint' to check XML markup files
+[0.406s] -- Configuring done
+[0.424s] -- Generating done
+[0.427s] -- Build files have been written to: /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[0.432s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake /home/guerra/uni/int-rob/exercise-1 -DCMAKE_INSTALL_PREFIX=/home/guerra/uni/int-rob/exercise-1/install/exercise-1
+[0.433s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[0.484s] [ 25%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/temperature_monitor.cpp.o[0m
+[0.487s] [ 50%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/temperature_monitor.cpp.o[0m
+[2.055s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.055s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.056s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.056s]                  from [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:3[m[K:
+[2.056s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:[m[K In member function ‘[01m[Kvoid TemperatureMonitor::topic_callback(const Float64&) const[m[K’:
+[2.056s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:19:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.056s]    19 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kt.data[m[K);
+[2.056s]       |                                       [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[2.056s]       |                                                          [32m[K|[m[K
+[2.056s]       |                                                          [32m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type {aka double}[m[K
+[2.056s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:19:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.057s]    19 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", t.data);
+[2.057s]       |                                                  [01;36m[K~^[m[K
+[2.057s]       |                                                   [01;36m[K|[m[K
+[2.057s]       |                                                   [01;36m[Kint[m[K
+[2.057s]       |                                                  [32m[K%f[m[K
+[2.174s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.174s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.175s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.175s]                  from [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:3[m[K:
+[2.175s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:[m[K In member function ‘[01m[Kvoid TemperatureMonitor::topic_callback(const Float64&) const[m[K’:
+[2.175s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:19:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[2.175s]    19 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"I heard: '%d'"[m[K, [32m[Kt.data[m[K);
+[2.175s]       |                                       [01;35m[K^~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~[m[K
+[2.175s]       |                                                          [32m[K|[m[K
+[2.176s]       |                                                          [32m[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type {aka double}[m[K
+[2.176s] [01m[K/home/guerra/uni/int-rob/exercise-1/src/temperature_monitor.cpp:19:51:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[2.176s]    19 |       RCLCPP_INFO(this->get_logger(), "I heard: '[01;36m[K%d[m[K'", t.data);
+[2.176s]       |                                                  [01;36m[K~^[m[K
+[2.176s]       |                                                   [01;36m[K|[m[K
+[2.176s]       |                                                   [01;36m[Kint[m[K
+[2.176s]       |                                                  [32m[K%f[m[K
+[5.791s] [ 75%] [32m[1mLinking CXX executable sensor[0m
+[5.906s] [100%] [32m[1mLinking CXX executable monitor[0m
+[6.165s] [100%] Built target sensor
+[6.180s] [100%] Built target monitor
+[6.193s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[6.206s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[6.216s] -- Install configuration: ""
+[6.216s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[6.219s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor" to ""
+[6.219s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor
+[6.221s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor" to ""
+[6.222s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[6.222s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/package_run_dependencies/exercise-1
+[6.222s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/parent_prefix_path/exercise-1
+[6.222s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.sh
+[6.222s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.dsv
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.sh
+[6.223s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.dsv
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.bash
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.sh
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.zsh
+[6.223s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.dsv
+[6.223s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.dsv
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/packages/exercise-1
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config.cmake
+[6.223s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config-version.cmake
+[6.224s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.xml
+[6.225s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1

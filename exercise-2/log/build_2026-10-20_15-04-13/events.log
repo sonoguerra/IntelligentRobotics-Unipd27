@@ -1,0 +1,320 @@
+[0.000000] (-) TimerEvent: {}
+[0.000851] (msg_interfaces) JobQueued: {'identifier': 'msg_interfaces', 'dependencies': OrderedDict()}
+[0.001176] (msg_interfaces) JobStarted: {'identifier': 'msg_interfaces'}
+[0.015063] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'cmake'}
+[0.016039] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/home/guerra/uni/int-rob/exercise-2/src/msg_interfaces', '-DCMAKE_INSTALL_PREFIX=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces'], 'cwd': '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces', 'env': OrderedDict([('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', 'false'), ('MAIL', '/var/spool/mail/guerra'), ('USER', 'guerra'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('HOSTNAME', 'arch-book4'), ('XDG_SESSION_TYPE', 'wayland'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '4'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('XDG_CACHE_HOME', '/home/guerra/.cache'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guerra'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/guerra/uni/int-rob/exercise-2/src'), ('DESKTOP_SESSION', '/usr/share/wayland-sessions/plasma.desktop'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/guerra/.oh-my-zsh'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/guerra/.gtkrc:/home/guerra/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('KITTY_PID', '4131'), ('MANAGERPID', '1085'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1174'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('XDG_STATE_HOME', '/home/guerra/.local/state'), ('container', 'docker'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guerra'), ('POSH_SESSION_ID', '4845ae0e-ab76-4c28-a5ab-55ea89b0d77f'), ('MANAGERPIDFDID', '4207'), ('JOURNAL_STREAM', '10:20517'), ('_', '/usr/bin/colcon'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-kwin_wayland.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('POSH_SHELL_VERSION', '5.8.1'), ('ROS_LOCALHOST_ONLY', '0'), ('KGLOBALACCELD_PLATFORM', 'org.kde.kwin'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/guerra/.gtkrc-2.0:/home/guerra/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/guerra/.local/bin:/home/guerra/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/guerra/.spicetify:/home/guerra/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/guerra/.spicetify:/home/guerra/.spicetify'), ('SESSION_MANAGER', 'local/arch-book4:@/tmp/.ICE-unix/1295,unix/arch-book4:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '48db899b6ae24794bd1480659fbe5e4d'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_cXqEZg'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_TLUWBj'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CONFIG_HOME', '/home/guerra/.config'), ('XDG_DATA_HOME', '/home/guerra/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', 'zsh'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('ZLE_RPROMPT_INDENT', '0'), ('OSTYPE', 'linux-gnu'), ('CONTAINER_ID', 'ros2-humble'), ('PWD', '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/home/guerra/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('XDG_CONFIG_DIRS', '/home/guerra/.config/kdedefaults:/etc/xdg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('POSH_SHELL', 'zsh'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098713] (-) TimerEvent: {}
+[0.199545] (-) TimerEvent: {}
+[0.241841] (msg_interfaces) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.299746] (-) TimerEvent: {}
+[0.400591] (-) TimerEvent: {}
+[0.403485] (msg_interfaces) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.433531] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.500854] (-) TimerEvent: {}
+[0.601710] (-) TimerEvent: {}
+[0.639190] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.659794] (msg_interfaces) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.660395] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.661464] (msg_interfaces) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.668376] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.701912] (-) TimerEvent: {}
+[0.802545] (-) TimerEvent: {}
+[0.867534] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.878461] (msg_interfaces) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.879025] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.879472] (msg_interfaces) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.884571] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.902710] (-) TimerEvent: {}
+[1.003269] (-) TimerEvent: {}
+[1.103744] (-) TimerEvent: {}
+[1.204399] (-) TimerEvent: {}
+[1.299398] (msg_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.304629] (-) TimerEvent: {}
+[1.405417] (-) TimerEvent: {}
+[1.506060] (-) TimerEvent: {}
+[1.541615] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.549481] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.558130] (msg_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.606302] (-) TimerEvent: {}
+[1.636178] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.706481] (-) TimerEvent: {}
+[1.807079] (-) TimerEvent: {}
+[1.907733] (-) TimerEvent: {}
+[2.008531] (-) TimerEvent: {}
+[2.109396] (-) TimerEvent: {}
+[2.186367] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.1 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.209557] (-) TimerEvent: {}
+[2.310132] (-) TimerEvent: {}
+[2.410700] (-) TimerEvent: {}
+[2.511391] (-) TimerEvent: {}
+[2.612091] (-) TimerEvent: {}
+[2.613153] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.712289] (-) TimerEvent: {}
+[2.813035] (-) TimerEvent: {}
+[2.913686] (-) TimerEvent: {}
+[3.014353] (-) TimerEvent: {}
+[3.115093] (-) TimerEvent: {}
+[3.189457] (msg_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.215371] (-) TimerEvent: {}
+[3.256514] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.259109] (msg_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.315590] (-) TimerEvent: {}
+[3.333297] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.334193] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.334501] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.334751] (msg_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.384675] (msg_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.415779] (-) TimerEvent: {}
+[3.516532] (-) TimerEvent: {}
+[3.617279] (-) TimerEvent: {}
+[3.672512] (msg_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.717498] (-) TimerEvent: {}
+[3.752211] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.756972] (msg_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.768932] (msg_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.817732] (-) TimerEvent: {}
+[3.856775] (msg_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[3.882961] (msg_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/guerra/uni/int-rob/exercise-2/build/msg_interfaces\n'}
+[3.907762] (msg_interfaces) CommandEnded: {'returncode': 0}
+[3.910312] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'build'}
+[3.913324] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces', '--', '-j12', '-l12'], 'cwd': '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces', 'env': OrderedDict([('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', 'false'), ('MAIL', '/var/spool/mail/guerra'), ('USER', 'guerra'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('HOSTNAME', 'arch-book4'), ('XDG_SESSION_TYPE', 'wayland'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '4'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('XDG_CACHE_HOME', '/home/guerra/.cache'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guerra'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/guerra/uni/int-rob/exercise-2/src'), ('DESKTOP_SESSION', '/usr/share/wayland-sessions/plasma.desktop'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/guerra/.oh-my-zsh'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/guerra/.gtkrc:/home/guerra/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('KITTY_PID', '4131'), ('MANAGERPID', '1085'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1174'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('XDG_STATE_HOME', '/home/guerra/.local/state'), ('container', 'docker'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guerra'), ('POSH_SESSION_ID', '4845ae0e-ab76-4c28-a5ab-55ea89b0d77f'), ('MANAGERPIDFDID', '4207'), ('JOURNAL_STREAM', '10:20517'), ('_', '/usr/bin/colcon'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-kwin_wayland.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('POSH_SHELL_VERSION', '5.8.1'), ('ROS_LOCALHOST_ONLY', '0'), ('KGLOBALACCELD_PLATFORM', 'org.kde.kwin'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/guerra/.gtkrc-2.0:/home/guerra/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/guerra/.local/bin:/home/guerra/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/guerra/.spicetify:/home/guerra/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/guerra/.spicetify:/home/guerra/.spicetify'), ('SESSION_MANAGER', 'local/arch-book4:@/tmp/.ICE-unix/1295,unix/arch-book4:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '48db899b6ae24794bd1480659fbe5e4d'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_cXqEZg'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_TLUWBj'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CONFIG_HOME', '/home/guerra/.config'), ('XDG_DATA_HOME', '/home/guerra/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', 'zsh'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('ZLE_RPROMPT_INDENT', '0'), ('OSTYPE', 'linux-gnu'), ('CONTAINER_ID', 'ros2-humble'), ('PWD', '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/home/guerra/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('XDG_CONFIG_DIRS', '/home/guerra/.config/kdedefaults:/etc/xdg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('POSH_SHELL', 'zsh'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.917953] (-) TimerEvent: {}
+[4.018769] (-) TimerEvent: {}
+[4.047404] (msg_interfaces) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.079437] (msg_interfaces) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[4.085867] (msg_interfaces) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.109875] (msg_interfaces) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_msg_interfaces\n'}
+[4.118938] (-) TimerEvent: {}
+[4.219669] (-) TimerEvent: {}
+[4.320199] (-) TimerEvent: {}
+[4.420721] (-) TimerEvent: {}
+[4.443448] (msg_interfaces) StdoutLine: {'line': b'[  9%] Built target msg_interfaces__cpp\n'}
+[4.444094] (msg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[4.444979] (msg_interfaces) StdoutLine: {'line': b'creating msg_interfaces.egg-info\n'}
+[4.445489] (msg_interfaces) StdoutLine: {'line': b'writing msg_interfaces.egg-info/PKG-INFO\n'}
+[4.445862] (msg_interfaces) StdoutLine: {'line': b'writing dependency_links to msg_interfaces.egg-info/dependency_links.txt\n'}
+[4.446200] (msg_interfaces) StdoutLine: {'line': b'writing top-level names to msg_interfaces.egg-info/top_level.txt\n'}
+[4.446453] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[4.448213] (msg_interfaces) StdoutLine: {'line': b"reading manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[4.448691] (msg_interfaces) StdoutLine: {'line': b"writing manifest file 'msg_interfaces.egg-info/SOURCES.txt'\n"}
+[4.467773] (msg_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.468308] (msg_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.468588] (msg_interfaces) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.501353] (msg_interfaces) StdoutLine: {'line': b'[ 18%] Built target ament_cmake_python_build_msg_interfaces_egg\n'}
+[4.520843] (-) TimerEvent: {}
+[4.621301] (-) TimerEvent: {}
+[4.643200] (msg_interfaces) StdoutLine: {'line': b'[ 18%] Built target msg_interfaces__rs\n'}
+[4.721507] (-) TimerEvent: {}
+[4.756402] (msg_interfaces) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_c.dir/rosidl_generator_c/msg_interfaces/msg/detail/robot_status__functions.c.o\x1b[0m\n'}
+[4.785399] (msg_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/msg_interfaces/msg/detail/robot_status__type_support.cpp.o\x1b[0m\n'}
+[4.793237] (msg_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/msg_interfaces/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[4.821654] (-) TimerEvent: {}
+[4.910583] (msg_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[4.921925] (-) TimerEvent: {}
+[4.930406] (msg_interfaces) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/msg_interfaces/msg/detail/dds_fastrtps/robot_status__type_support.cpp.o\x1b[0m\n'}
+[4.990926] (msg_interfaces) StdoutLine: {'line': b'[ 34%] Built target msg_interfaces__rosidl_generator_c\n'}
+[5.007448] (msg_interfaces) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.011713] (msg_interfaces) StdoutLine: {'line': b'[ 40%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.018392] (msg_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.024259] (-) TimerEvent: {}
+[5.125024] (-) TimerEvent: {}
+[5.225636] (-) TimerEvent: {}
+[5.325758] (msg_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/msg_interfaces/msg/detail/robot_status__type_support_c.cpp.o\x1b[0m\n'}
+[5.326224] (-) TimerEvent: {}
+[5.333235] (msg_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.414064] (msg_interfaces) StdoutLine: {'line': b'[ 50%] Built target msg_interfaces__rosidl_typesupport_cpp\n'}
+[5.426401] (-) TimerEvent: {}
+[5.457743] (msg_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/msg_interfaces/msg/detail/robot_status__type_support.c.o\x1b[0m\n'}
+[5.526578] (-) TimerEvent: {}
+[5.535450] (msg_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking C shared library libmsg_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.607068] (msg_interfaces) StdoutLine: {'line': b'[ 56%] Built target msg_interfaces__rosidl_typesupport_introspection_c\n'}
+[5.626975] (-) TimerEvent: {}
+[5.641822] (msg_interfaces) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/msg_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/msg_interfaces/msg/robot_status__type_support.cpp.o\x1b[0m\n'}
+[5.649708] (msg_interfaces) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.679796] (msg_interfaces) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.727180] (-) TimerEvent: {}
+[5.748009] (msg_interfaces) StdoutLine: {'line': b'[ 65%] Built target msg_interfaces__rosidl_typesupport_c\n'}
+[5.801789] (msg_interfaces) StdoutLine: {'line': b'[ 65%] Built target msg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[5.806961] (msg_interfaces) StdoutLine: {'line': b'[ 68%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.822292] (msg_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.827401] (-) TimerEvent: {}
+[5.928171] (-) TimerEvent: {}
+[5.947638] (msg_interfaces) StdoutLine: {'line': b'[ 71%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[5.959078] (msg_interfaces) StdoutLine: {'line': b'[ 71%] Built target msg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[5.997015] (msg_interfaces) StdoutLine: {'line': b'[ 71%] Built target msg_interfaces\n'}
+[6.028372] (-) TimerEvent: {}
+[6.037611] (msg_interfaces) StdoutLine: {'line': b'[ 75%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.128511] (-) TimerEvent: {}
+[6.229070] (-) TimerEvent: {}
+[6.329613] (-) TimerEvent: {}
+[6.430314] (-) TimerEvent: {}
+[6.506970] (msg_interfaces) StdoutLine: {'line': b'[ 75%] Built target msg_interfaces__py\n'}
+[6.530533] (-) TimerEvent: {}
+[6.550205] (msg_interfaces) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/msg_interfaces/msg/_robot_status_s.c.o\x1b[0m\n'}
+[6.630698] (-) TimerEvent: {}
+[6.710050] (msg_interfaces) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[6.730904] (-) TimerEvent: {}
+[6.793887] (msg_interfaces) StdoutLine: {'line': b'[ 81%] Built target msg_interfaces__rosidl_generator_py\n'}
+[6.831415] (-) TimerEvent: {}
+[6.855128] (msg_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.856055] (msg_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.858622] (msg_interfaces) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/msg_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.931620] (-) TimerEvent: {}
+[7.031699] (msg_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.032155] (-) TimerEvent: {}
+[7.083183] (msg_interfaces) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.083884] (msg_interfaces) StdoutLine: {'line': b'[ 96%] Built target msg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.090520] (msg_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.132420] (-) TimerEvent: {}
+[7.170348] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[7.179268] (msg_interfaces) StdoutLine: {'line': b'[100%] Built target msg_interfaces__rosidl_typesupport_c__pyext\n'}
+[7.213387] (msg_interfaces) CommandEnded: {'returncode': 0}
+[7.215652] (msg_interfaces) JobProgress: {'identifier': 'msg_interfaces', 'progress': 'install'}
+[7.232591] (-) TimerEvent: {}
+[7.240097] (msg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces'], 'cwd': '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces', 'env': OrderedDict([('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', 'false'), ('MAIL', '/var/spool/mail/guerra'), ('USER', 'guerra'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('HOSTNAME', 'arch-book4'), ('XDG_SESSION_TYPE', 'wayland'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '4'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('XDG_CACHE_HOME', '/home/guerra/.cache'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guerra'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/guerra/uni/int-rob/exercise-2/src'), ('DESKTOP_SESSION', '/usr/share/wayland-sessions/plasma.desktop'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/guerra/.oh-my-zsh'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/guerra/.gtkrc:/home/guerra/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('KITTY_PID', '4131'), ('MANAGERPID', '1085'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1174'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('XDG_STATE_HOME', '/home/guerra/.local/state'), ('container', 'docker'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guerra'), ('POSH_SESSION_ID', '4845ae0e-ab76-4c28-a5ab-55ea89b0d77f'), ('MANAGERPIDFDID', '4207'), ('JOURNAL_STREAM', '10:20517'), ('_', '/usr/bin/colcon'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-kwin_wayland.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('POSH_SHELL_VERSION', '5.8.1'), ('ROS_LOCALHOST_ONLY', '0'), ('KGLOBALACCELD_PLATFORM', 'org.kde.kwin'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/guerra/.gtkrc-2.0:/home/guerra/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/guerra/.local/bin:/home/guerra/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/guerra/.spicetify:/home/guerra/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/guerra/.spicetify:/home/guerra/.spicetify'), ('SESSION_MANAGER', 'local/arch-book4:@/tmp/.ICE-unix/1295,unix/arch-book4:/tmp/.ICE-unix/1295'), ('INVOCATION_ID', '48db899b6ae24794bd1480659fbe5e4d'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_cXqEZg'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_TLUWBj'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CONFIG_HOME', '/home/guerra/.config'), ('XDG_DATA_HOME', '/home/guerra/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', 'zsh'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('ZLE_RPROMPT_INDENT', '0'), ('OSTYPE', 'linux-gnu'), ('CONTAINER_ID', 'ros2-humble'), ('PWD', '/home/guerra/uni/int-rob/exercise-2/build/msg_interfaces'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/home/guerra/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('XDG_CONFIG_DIRS', '/home/guerra/.config/kdedefaults:/etc/xdg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('POSH_SHELL', 'zsh'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[7.266718] (msg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.267332] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/ament_index/resource_index/rosidl_interfaces/msg_interfaces\n'}
+[7.267688] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.268016] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.268240] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[7.268443] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/robot_status.h\n'}
+[7.268672] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.268929] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__functions.c\n'}
+[7.269124] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__functions.h\n'}
+[7.269655] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__struct.h\n'}
+[7.270029] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__type_support.h\n'}
+[7.270364] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/library_path.sh\n'}
+[7.270870] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/library_path.dsv\n'}
+[7.271173] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so\n'}
+[7.272456] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_c.so" to ""\n'}
+[7.273056] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.273678] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.273911] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[7.274057] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.274296] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_c.h\n'}
+[7.274482] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[7.275265] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[7.275781] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.276072] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.276250] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[7.276390] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.277018] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_c.h\n'}
+[7.277345] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__type_support.c\n'}
+[7.277925] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[7.279017] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[7.279674] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so\n'}
+[7.281259] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[7.281780] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.282109] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.282538] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[7.282828] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/robot_status.hpp\n'}
+[7.283106] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.283546] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__builder.hpp\n'}
+[7.283884] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__struct.hpp\n'}
+[7.284183] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__traits.hpp\n'}
+[7.284446] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__type_support.hpp\n'}
+[7.284749] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.284992] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.285328] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[7.285596] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.285935] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[7.286197] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/dds_fastrtps\n'}
+[7.286473] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[7.287904] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[7.288587] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces\n'}
+[7.289003] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg\n'}
+[7.289281] (msg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail\n'}
+[7.289528] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[7.289870] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/include/msg_interfaces/msg_interfaces/msg/detail/robot_status__type_support.cpp\n'}
+[7.290129] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[7.291351] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[7.291834] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so\n'}
+[7.293132] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[7.293867] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.sh\n'}
+[7.294653] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/pythonpath.dsv\n'}
+[7.295414] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info\n'}
+[7.296026] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[7.296444] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[7.296714] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[7.297052] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[7.297379] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces\n'}
+[7.297953] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py\n'}
+[7.298516] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg\n'}
+[7.298887] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_robot_status.py\n'}
+[7.299225] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_robot_status_s.c\n'}
+[7.299459] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py\n'}
+[7.299744] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[7.299957] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[7.300294] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/_msg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[7.300531] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/libmsg_interfaces__rosidl_generator_py.so\n'}
+[7.300742] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.300953] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.301673] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.332737] (-) TimerEvent: {}
+[7.382199] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces'...\n"}
+[7.382592] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/__init__.py'...\n"}
+[7.382787] (msg_interfaces) StdoutLine: {'line': b"Listing '/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg'...\n"}
+[7.382966] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/__init__.py'...\n"}
+[7.383175] (msg_interfaces) StdoutLine: {'line': b"Compiling '/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg/_robot_status.py'...\n"}
+[7.390379] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.391085] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.392017] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.392690] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.393425] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[7.394828] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/local/lib/python3.10/dist-packages/msg_interfaces/msg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[7.395131] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so\n'}
+[7.396149] (msg_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/lib/libmsg_interfaces__rosidl_generator_py.so" to ""\n'}
+[7.396726] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust\n'}
+[7.397092] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/src\n'}
+[7.397349] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/src/msg.rs\n'}
+[7.397855] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/src/msg\n'}
+[7.398075] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/src/msg/rmw.rs\n'}
+[7.398217] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/src/lib.rs\n'}
+[7.398342] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/Cargo.toml\n'}
+[7.398502] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/rust/build.rs\n'}
+[7.398606] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/msg/RobotStatus.idl\n'}
+[7.398777] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/msg/RobotStatus.msg\n'}
+[7.398998] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/ament_index/resource_index/package_run_dependencies/msg_interfaces\n'}
+[7.399369] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/ament_index/resource_index/parent_prefix_path/msg_interfaces\n'}
+[7.399666] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.sh\n'}
+[7.400043] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/ament_prefix_path.dsv\n'}
+[7.400516] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/path.sh\n'}
+[7.400755] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/environment/path.dsv\n'}
+[7.401003] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/local_setup.bash\n'}
+[7.401391] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/local_setup.sh\n'}
+[7.401564] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/local_setup.zsh\n'}
+[7.401766] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/local_setup.dsv\n'}
+[7.402019] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/package.dsv\n'}
+[7.402445] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/ament_index/resource_index/packages/msg_interfaces\n'}
+[7.402693] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport.cmake\n'}
+[7.403438] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[7.403729] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[7.404277] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[7.404588] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[7.405023] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[7.405400] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[7.405881] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[7.406328] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[7.407706] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[7.407925] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[7.408037] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[7.408313] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[7.408649] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[7.409218] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[7.409546] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[7.410138] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/export_msg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[7.410517] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[7.410834] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[7.411114] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[7.411737] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[7.412350] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[7.412806] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.413270] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[7.413531] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/rosidl_cmake_aggregate_target-extras.cmake\n'}
+[7.413869] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig.cmake\n'}
+[7.414108] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake/msg_interfacesConfig-version.cmake\n'}
+[7.414358] (msg_interfaces) StdoutLine: {'line': b'-- Installing: /home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/package.xml\n'}
+[7.419251] (msg_interfaces) CommandEnded: {'returncode': 0}
+[7.433273] (-) TimerEvent: {}
+[7.488097] (msg_interfaces) JobEnded: {'identifier': 'msg_interfaces', 'rc': 0}
+[7.490117] (-) EventReactorShutdown: {}

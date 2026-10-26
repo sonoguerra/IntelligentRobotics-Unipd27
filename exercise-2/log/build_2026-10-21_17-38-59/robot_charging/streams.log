@@ -1,0 +1,94 @@
+[0.019s] Invoking command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-2/build/robot_charging -- -j12 -l12
+[0.051s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.211s] -- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)
+[0.244s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.247s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.254s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.265s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.280s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.320s] -- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.322s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.490s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.550s] -- Found msg_interfaces: 0.0.0 (/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces/share/msg_interfaces/cmake)
+[0.562s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.643s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.644s] -- Configured cppcheck include dirs: 
+[0.644s] -- Configured cppcheck exclude dirs and/or files: 
+[0.644s] -- Added test 'lint_cmake' to check CMake code style
+[0.644s] -- Added test 'uncrustify' to check C / C++ code style
+[0.644s] -- Configured uncrustify additional arguments: 
+[0.645s] -- Added test 'xmllint' to check XML markup files
+[0.645s] -- Configuring done
+[0.659s] -- Generating done
+[0.664s] -- Build files have been written to: /home/guerra/uni/int-rob/exercise-2/build/robot_charging
+[0.713s] [ 25%] [32mBuilding CXX object CMakeFiles/robot.dir/src/robot.cpp.o[0m
+[0.716s] [ 50%] [32mBuilding CXX object CMakeFiles/charging_station.dir/src/charging_station.cpp.o[0m
+[3.679s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.679s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.680s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.680s]                  from [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/robot.cpp:2[m[K:
+[3.681s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/robot.cpp:[m[K In member function ‘[01m[Kvoid Robot::timer_callback()[m[K’:
+[3.681s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/robot.cpp:36:45:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kmsg_interfaces::msg::RobotStatus_<std::allocator<void> >::_room_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.681s]    36 |             RCLCPP_INFO(this->get_logger(), [01;35m[K"PUBLISHING\nRoom %d: %s, Battery: %d"[m[K, m.room_id, m.room_name, m.battery_level);
+[3.681s]       |                                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.681s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/robot.cpp:36:68:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.681s]    36 |             RCLCPP_INFO(this->get_logger(), "PUBLISHING\nRoom %d: [01;36m[K%s[m[K, Battery: %d", m.room_id, m.room_name, m.battery_level);
+[3.681s]       |                                                                   [01;36m[K~^[m[K
+[3.682s]       |                                                                    [01;36m[K|[m[K
+[3.682s]       |                                                                    [01;36m[Kchar*[m[K
+[3.786s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.787s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.788s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.788s]                  from [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/charging_station.cpp:2[m[K:
+[3.788s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/charging_station.cpp:[m[K In member function ‘[01m[Kvoid ChargingStation::topic_callback(const RobotStatus&) const[m[K’:
+[3.788s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/charging_station.cpp:19:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 6 has type ‘[01m[Kconst _room_name_type[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[3.788s]    19 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"RECEIVING\nRoom %d: %s, Battery: %d"[m[K, m.room_id, m.room_name, m.battery_level);
+[3.789s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.789s] [01m[K/home/guerra/uni/int-rob/exercise-2/src/robot_charging/src/charging_station.cpp:19:61:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[3.789s]    19 |       RCLCPP_INFO(this->get_logger(), "RECEIVING\nRoom %d: [01;36m[K%s[m[K, Battery: %d", m.room_id, m.room_name, m.battery_level);
+[3.789s]       |                                                            [01;36m[K~^[m[K
+[3.789s]       |                                                             [01;36m[K|[m[K
+[3.789s]       |                                                             [01;36m[Kchar*[m[K
+[6.182s] [ 75%] [32m[1mLinking CXX executable robot[0m
+[6.505s] [ 75%] Built target robot
+[10.643s] [100%] [32m[1mLinking CXX executable charging_station[0m
+[11.073s] [100%] Built target charging_station
+[11.090s] Invoked command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging' returned '0': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-2/build/robot_charging -- -j12 -l12
+[11.108s] Invoking command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-2/build/robot_charging
+[11.117s] -- Install configuration: ""
+[11.118s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/robot
+[11.123s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/robot" to ""
+[11.123s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/charging_station
+[11.132s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-2/install/robot_charging/lib/robot_charging/charging_station" to ""
+[11.133s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/package_run_dependencies/robot_charging
+[11.133s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/parent_prefix_path/robot_charging
+[11.133s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/ament_prefix_path.sh
+[11.133s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/ament_prefix_path.dsv
+[11.133s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/path.sh
+[11.133s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/environment/path.dsv
+[11.133s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.bash
+[11.134s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.sh
+[11.134s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.zsh
+[11.134s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/local_setup.dsv
+[11.134s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/package.dsv
+[11.134s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/ament_index/resource_index/packages/robot_charging
+[11.135s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/cmake/robot_chargingConfig.cmake
+[11.135s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/cmake/robot_chargingConfig-version.cmake
+[11.136s] -- Installing: /home/guerra/uni/int-rob/exercise-2/install/robot_charging/share/robot_charging/package.xml
+[11.136s] Invoked command in '/home/guerra/uni/int-rob/exercise-2/build/robot_charging' returned '0': CMAKE_PREFIX_PATH=/home/guerra/uni/int-rob/exercise-2/install/msg_interfaces:/home/guerra/uni/int-rob/exercise-2/install/robot_charging:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-2/build/robot_charging

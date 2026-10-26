@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.001093] (exercise-1) JobQueued: {'identifier': 'exercise-1', 'dependencies': OrderedDict()}
+[0.001133] (exercise-1) JobStarted: {'identifier': 'exercise-1'}
+[0.009618] (exercise-1) JobProgress: {'identifier': 'exercise-1', 'progress': 'cmake'}
+[0.010439] (exercise-1) Command: {'cmd': ['/usr/bin/cmake', '/home/guerra/uni/int-rob/exercise-1', '-DCMAKE_INSTALL_PREFIX=/home/guerra/uni/int-rob/exercise-1/install/exercise-1'], 'cwd': '/home/guerra/uni/int-rob/exercise-1/build/exercise-1', 'env': OrderedDict([('KDE_FULL_SESSION', 'true'), ('CONDA_PROMPT_MODIFIER', 'false'), ('MAIL', '/var/spool/mail/guerra'), ('USER', 'guerra'), ('PAM_KWALLET5_LOGIN', '/run/user/1000/kwallet5.socket'), ('HOSTNAME', 'arch-book4'), ('XDG_SESSION_TYPE', 'wayland'), ('QT_WAYLAND_RECONNECT', '1'), ('SHLVL', '4'), ('POWERLINE_COMMAND', 'oh-my-posh'), ('XDG_CACHE_HOME', '/home/guerra/.cache'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/guerra'), ('LESS', '-R'), ('MOTD_SHOWN', 'pam'), ('TERMINFO', '/usr/lib/kitty/terminfo'), ('KDE_APPLICATIONS_AS_SCOPE', '1'), ('OLDPWD', '/home/guerra/uni/int-rob'), ('DESKTOP_SESSION', '/usr/share/wayland-sessions/plasma.desktop'), ('KITTY_INSTALLATION_DIR', '/usr/lib/kitty'), ('LSCOLORS', 'Gxfxcxdxbxegedabagacad'), ('ZSH', '/home/guerra/.oh-my-zsh'), ('GTK_RC_FILES', '/etc/gtk/gtkrc:/home/guerra/.gtkrc:/home/guerra/.config/gtkrc'), ('KDE_SESSION_VERSION', '6'), ('PAGER', 'less'), ('ROS_PYTHON_VERSION', '3'), ('KITTY_PID', '2953'), ('MANAGERPID', '1062'), ('DISTROBOX_ENTER_PATH', '/usr/bin/distrobox-enter'), ('SYSTEMD_EXEC_PID', '1120'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('XDG_STATE_HOME', '/home/guerra/.local/state'), ('container', 'docker'), ('COLORTERM', 'truecolor'), ('DEBUGINFOD_URLS', 'https://debuginfod.archlinux.org'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'guerra'), ('POSH_SESSION_ID', '2ef31b96-77a8-4c75-a03a-8bb40a6458bf'), ('MANAGERPIDFDID', '20655'), ('JOURNAL_STREAM', '10:18628'), ('_', '/usr/bin/colcon'), ('TERMINFO_DIRS', '/usr/share/terminfo:/run/host/usr/share/terminfo'), ('MEMORY_PRESSURE_WATCH', '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/plasma-kwin_wayland.service/memory.pressure'), ('XDG_SESSION_CLASS', 'user'), ('ROS_VERSION', '2'), ('TERM', 'xterm-kitty'), ('XDG_SESSION_ID', '2'), ('POSH_SHELL_VERSION', '5.8.1'), ('ROS_LOCALHOST_ONLY', '0'), ('KGLOBALACCELD_PLATFORM', 'org.kde.kwin'), ('GTK2_RC_FILES', '/etc/gtk-2.0/gtkrc:/home/guerra/.gtkrc-2.0:/home/guerra/.config/gtkrc-2.0'), ('PATH', '/opt/ros/humble/bin:/home/guerra/.local/bin:/home/guerra/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/guerra/.spicetify:/home/guerra/.spicetify:/usr/local/sbin:/usr/sbin:/usr/local/bin:/usr/bin:/sbin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/guerra/.spicetify:/home/guerra/.spicetify'), ('SESSION_MANAGER', 'local/arch-book4:@/tmp/.ICE-unix/1242,unix/arch-book4:/tmp/.ICE-unix/1242'), ('INVOCATION_ID', '0a4c9119631a42019fe0ae3017ce8e1e'), ('XDG_SESSION_PATH', '/org/freedesktop/DisplayManager/Session1'), ('XDG_MENU_PREFIX', 'plasma-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('ICEAUTHORITY', '/run/user/1000/iceauth_xnskrv'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XDG_CURRENT_DESKTOP', 'KDE'), ('XDG_SESSION_DESKTOP', 'KDE'), ('XAUTHORITY', '/run/user/1000/xauth_RJnEFr'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.7z=01;31:*.ace=01;31:*.alz=01;31:*.apk=01;31:*.arc=01;31:*.arj=01;31:*.bz=01;31:*.bz2=01;31:*.cab=01;31:*.cpio=01;31:*.crate=01;31:*.deb=01;31:*.drpm=01;31:*.dwm=01;31:*.dz=01;31:*.ear=01;31:*.egg=01;31:*.esd=01;31:*.gz=01;31:*.jar=01;31:*.lha=01;31:*.lrz=01;31:*.lz=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.lzo=01;31:*.pyz=01;31:*.rar=01;31:*.rpm=01;31:*.rz=01;31:*.sar=01;31:*.swm=01;31:*.t7z=01;31:*.tar=01;31:*.taz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tgz=01;31:*.tlz=01;31:*.txz=01;31:*.tz=01;31:*.tzo=01;31:*.tzst=01;31:*.udeb=01;31:*.war=01;31:*.whl=01;31:*.wim=01;31:*.xz=01;31:*.z=01;31:*.zip=01;31:*.zoo=01;31:*.zst=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.jxl=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:'), ('XDG_CONFIG_HOME', '/home/guerra/.config'), ('XDG_DATA_HOME', '/home/guerra/.local/share'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', 'zsh'), ('PYENV_VIRTUALENV_DISABLE_PROMPT', '1'), ('KITTY_WINDOW_ID', '1'), ('VSSCRIPT_PATH', '/usr/lib/python3.14/site-packages/vapoursynth/libvsscript.so'), ('ZLE_RPROMPT_INDENT', '0'), ('OSTYPE', 'linux-gnu'), ('CONTAINER_ID', 'ros2-humble'), ('PWD', '/home/guerra/uni/int-rob/exercise-1/build/exercise-1'), ('VIRTUAL_ENV_DISABLE_PROMPT', '1'), ('XDG_DATA_DIRS', '/home/guerra/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share'), ('XDG_CONFIG_DIRS', '/home/guerra/.config/kdedefaults:/etc/xdg'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('KDE_SESSION_UID', '1000'), ('COLCON', '1'), ('MEMORY_PRESSURE_WRITE', 'c29tZSAyMDAwMDAgMjAwMDAwMAA='), ('POSH_SHELL', 'zsh')]), 'shell': False}
+[0.021427] (exercise-1) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099993] (-) TimerEvent: {}
+[0.127638] (exercise-1) StdoutLine: {'line': b'-- Found rclcpp: 16.0.21 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.200146] (-) TimerEvent: {}
+[0.269127] (exercise-1) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.275759] (exercise-1) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.289680] (exercise-1) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.300007] (exercise-1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.300229] (-) TimerEvent: {}
+[0.311687] (exercise-1) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.345968] (exercise-1) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.4 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.348468] (exercise-1) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400342] (-) TimerEvent: {}
+[0.431931] (exercise-1) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.459769] (exercise-1) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.491134] (exercise-1) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500443] (-) TimerEvent: {}
+[0.501184] (exercise-1) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.573779] (exercise-1) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.574297] (exercise-1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.600588] (-) TimerEvent: {}
+[0.653945] (exercise-1) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.655525] (exercise-1) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.700787] (-) TimerEvent: {}
+[0.719594] (exercise-1) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.755360] (exercise-1) StderrLine: {'line': b"Error parsing '/home/guerra/uni/int-rob/exercise-1/package.xml':\n"}
+[0.755599] (exercise-1) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[0.755799] (exercise-1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>\n'}
+[0.755967] (exercise-1) StderrLine: {'line': b'    main()\n'}
+[0.756059] (exercise-1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main\n'}
+[0.756103] (exercise-1) StderrLine: {'line': b'    raise e\n'}
+[0.756143] (exercise-1) StderrLine: {'line': b'  File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main\n'}
+[0.756179] (exercise-1) StderrLine: {'line': b'    package = parse_package_string(\n'}
+[0.756214] (exercise-1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 647, in parse_package_string\n'}
+[0.756249] (exercise-1) StderrLine: {'line': b"    _get_node_attr(node, 'email')\n"}
+[0.756285] (exercise-1) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 843, in _get_node_attr\n'}
+[0.756325] (exercise-1) StderrLine: {'line': b'    raise InvalidPackage(\'The "%s" tag must have the attribute "%s"\' % (node.tagName, attr))\n'}
+[0.756359] (exercise-1) StderrLine: {'line': b'catkin_pkg.package.InvalidPackage: The "maintainer" tag must have the attribute "email"\n'}
+[0.761064] (exercise-1) StderrLine: {'line': b'\x1b[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):\n'}
+[0.761263] (exercise-1) StderrLine: {'line': b'  execute_process(/usr/bin/python3\n'}
+[0.761497] (exercise-1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py\n'}
+[0.761618] (exercise-1) StderrLine: {'line': b'  /home/guerra/uni/int-rob/exercise-1/package.xml\n'}
+[0.761720] (exercise-1) StderrLine: {'line': b'  /home/guerra/uni/int-rob/exercise-1/build/exercise-1/ament_cmake_core/package.cmake)\n'}
+[0.761819] (exercise-1) StderrLine: {'line': b'  returned error code 1\n'}
+[0.761922] (exercise-1) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.762016] (exercise-1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)\n'}
+[0.762110] (exercise-1) StderrLine: {'line': b'  /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)\n'}
+[0.762203] (exercise-1) StderrLine: {'line': b'  CMakeLists.txt:41 (ament_lint_auto_find_test_dependencies)\n'}
+[0.762295] (exercise-1) StderrLine: {'line': b'\n'}
+[0.762388] (exercise-1) StderrLine: {'line': b'\x1b[0m\n'}
+[0.762480] (exercise-1) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.762579] (exercise-1) StdoutLine: {'line': b'See also "/home/guerra/uni/int-rob/exercise-1/build/exercise-1/CMakeFiles/CMakeOutput.log".\n'}
+[0.766123] (exercise-1) CommandEnded: {'returncode': 1}
+[0.766732] (exercise-1) JobEnded: {'identifier': 'exercise-1', 'rc': 1}
+[0.776752] (-) EventReactorShutdown: {}

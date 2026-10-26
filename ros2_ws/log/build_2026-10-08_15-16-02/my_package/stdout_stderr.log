@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:16:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "ament_target_dependeciesç".
+
+[0m
+-- Configuring incomplete, errors occurred!

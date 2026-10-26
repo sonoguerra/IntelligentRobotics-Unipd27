@@ -1,0 +1,32 @@
+[0.012s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target sensor[0m
+[0.073s] [ 25%] [32mBuilding CXX object CMakeFiles/monitor.dir/src/temperature_monitor.cpp.o[0m
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/sensor.dir/src/temperature_sensor.cpp.o[0m
+[3.189s] [ 75%] [32m[1mLinking CXX executable sensor[0m
+[3.329s] [ 75%] Built target sensor
+[5.402s] [100%] [32m[1mLinking CXX executable monitor[0m
+[5.677s] [100%] Built target monitor
+[5.687s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/exercise-1/build/exercise-1 -- -j12 -l12
+[5.698s] Invoking command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
+[5.708s] -- Install configuration: ""
+[5.708s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[5.710s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor" to ""
+[5.710s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor
+[5.713s] -- Set runtime path of "/home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/monitor" to ""
+[5.714s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/lib/exercise-1/sensor
+[5.714s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/package_run_dependencies/exercise-1
+[5.714s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/parent_prefix_path/exercise-1
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.sh
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/ament_prefix_path.dsv
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.sh
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/environment/path.dsv
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.bash
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.sh
+[5.715s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.zsh
+[5.716s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/local_setup.dsv
+[5.716s] -- Installing: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.dsv
+[5.717s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/ament_index/resource_index/packages/exercise-1
+[5.717s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config.cmake
+[5.717s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/cmake/exercise-1Config-version.cmake
+[5.717s] -- Up-to-date: /home/guerra/uni/int-rob/exercise-1/install/exercise-1/share/exercise-1/package.xml
+[5.718s] Invoked command in '/home/guerra/uni/int-rob/exercise-1/build/exercise-1' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/exercise-1/build/exercise-1
