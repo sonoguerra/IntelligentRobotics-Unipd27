@@ -1,4 +1,0 @@
-Invoking command in '/home/guerra/uni/int-rob/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/ros2_ws/build/my_package -- -j12 -l12
-Invoked command in '/home/guerra/uni/int-rob/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --build /home/guerra/uni/int-rob/ros2_ws/build/my_package -- -j12 -l12
-Invoking command in '/home/guerra/uni/int-rob/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/ros2_ws/build/my_package
-Invoked command in '/home/guerra/uni/int-rob/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble DEBUGINFOD_URLS=https://debuginfod.archlinux.org /usr/bin/cmake --install /home/guerra/uni/int-rob/ros2_ws/build/my_package
